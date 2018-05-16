@@ -23,7 +23,7 @@
             :proClass [:DefMarker :Demonstrative :Independent :PossObj :ProComp],
             :rootClass [:CCC :CCY :CVC :Invar],
             :tam [:Aorist :Future :Imperative :Jussive :NA :Optative :Past :Permissive :Present],
-            :vmorphclass [:FiniteToBeAdded :Affix_SubjMark  :NonFin_Participles :Stem_DervSem :Stem_DervTense :Stem_Tam]
+            :vmorphClass [:FiniteToBeAdded :Affix_SubjMark  :NonFin_Participles :Stem_DervSem :Stem_DervTense :Stem_Tam]
             :pdgmType [:Finite :FinitePartial :PRO :NOM :VOther]}
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :defClass :deixis :derivedStem :derivedStemAug :participle :polarity :pos :proClass :tam],
