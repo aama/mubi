@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data//mubi/mubi-pdgms.edn
+#../aama-data/data/mubi/mubi-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -462,6 +462,8 @@ mub:rootClass aamas:pclass aamas:inflClass .
 aamas:inflClass rdfs:label "inflClass" .
 
 #LEXEMES:
+
+##LexItems
 aama:Mubi-token a aamas:Lexeme ;
 	aamas:lang aama:Mubi ;
 	rdfs:label "token" ;
@@ -480,7 +482,7 @@ mub:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDc26cf2be-bb2f-4c9f-8f17-ce88be9605ee a aamas:Term ;
+aama:ID60abfd15-f0aa-41b9-88b4-0196d3457f3f a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:Finite_Verb_Paradigms_to_be_added ;
 	mub:vmorpheme mub:FiniteToBeAdded ;
@@ -498,7 +500,7 @@ mub:Pronominal_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:IDfc197a9a-528e-4de2-9dc0-bddc77e3dbd8 a aamas:Term ;
+aama:IDef40581a-9edb-4f78-85fc-fdcab68c1ce6 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:Pronominal_Paradigms_to_be_added ;
 	mub:pos mub:Pronoun ;
