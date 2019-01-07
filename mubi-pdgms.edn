@@ -6,48 +6,67 @@
  :datasourceNotes ""
  :geodemoURL "http://www.ethnologue.com/language/"
  :geodemoTXT "Southwestern Chad, Batha region: widespread; Guéra region: Guéra department, Mangalmé subprefecture, 135 villages in Mangalmé area. About 35.300 speakers (1993 census)."
- :schemata {:nmorphClass [:PLMARK :POSTPOSITION],
-            :case [:Ablative :Equative :Locative :Nom_obj :Object :Possessive :Subject],
-            :conjClass [:Enclitic :Prefix :Suffix],
-            :defClass [:DefClass1 :DefClass2 :DefClass3],
-            :deixis [:Far :Near],
-            :derivedStem [:B :BIntensive :M :MIntensive :R :S :SIntensive :SMIntensive :SS :T :TIntensive],
-            :gender [:Common :Fem :Masc],
-            :number [:Plural :Singular :_NA],
-            :participle [],
-            :person [:Person1 :Person2 :Person3],
-            :pluralClass [],
-            :polarity [:Affirmative :Negative],
-            :pos [:Noun :Pronoun :Verb],
-            :postpositionClass [],
-            :proClass [:DefMarker :Demonstrative :Independent :PossObj :ProComp],
-            :rootClass [:CCC :CCY :CVC :Invar],
-            :tam [:Aorist :Future :Imperative :Jussive :NA :Optative :Past :Permissive :Present],
-            :vmorphClass [:FiniteToBeAdded :Affix_SubjMark  :NonFin_Participles :Stem_DervSem :Stem_DervTense :Stem_Tam]
-            :pdgmType [:Finite :FinitePartial :PRO :NOM :VOther]}
+ :schemata {
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :defClass :deixis :derivedStem :derivedStemAug :participle :polarity :pos :proClass :tam],
           :inflClass [:conjClass :pluralClass :postpositionClass :rootClass],
           :otherClass []}
  :lexemes {
-           :token {:conjClass :token, :derivedStem :token,  :rootClass :token, :lemma "", :gloss ""},}
+           }
  :termclusters [
 
-           {:label "Finite_Verb_Paradigms_to_be_added"
-            :common {:vmorpheme :FiniteToBeAdded
-                     :pos :Verb,
-                     ;; needs :person and one other prop to pass muster
-                     :person :To_be_added
-                     :tam :To_be_added}
-            :terms [[:token],
-                    [  "not attested"]]
-            }
-           {:label "Pronominal_Paradigms_to_be_added"
-            :common {:pos :Pronoun,
-                     :proClass :To_be_added}
-            :terms [[:token],
-                    ["not attested"]]
-            }
+                {:label "Finite_Verb_Paradigms_to_be_added"
+                 :note ""
+                 :common {:vmorpheme :FiniteToBeAdded
+                          :pos :Verb,
+                          ;; needs :person and one other prop to pass muster
+                          :person :To_be_added
+                          :tam :To_be_added}
+                 :terms [[:token],
+                         [  "not attested"]]
+                 }
+                {:label "hausa-PInd"
+                 :note "This is the independent non-subject. The weak subject combines with the TAM marker. Newman2000, 476"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :case :Subject
+                          :proClass :Independent}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ndé	ní
+kám	ká
+kín	kí
+ár	à
+tír	dì
+áná~éné	á
+kéné	ká(n)
+kér	kà
+"],
+                         [:Singular :Person2 :Masc "kai"],
+                         [:Singular :Person2 :Fem "ke:"],
+                         [:Singular :Person3 :Masc "ʃi:"],
+                         [:Singular :Person3 :Fem "ita"],
+                         [:Plural :Person1 :Common "mu:"],
+                         [:Plural :Person2 :Common "ku:"],
+                         [:Plural :Person2 :Common "su:"]]
+                 }
+                {:label "hausa-PObj"
+                 :note "This is the strong object. Newman2000, 487"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :case :Subject
+                          :proClass :Independent}
+                 :terms [[:number :person :gender :token],
+                         :terms [[:number :person :gender :token],
+                                 [:Singular :Person1 :Common "ni"],
+                                 [:Singular :Person2 :Masc "ka"],
+                                 [:Singular :Person2 :Fem "ki"],
+                                 [:Singular :Person3 :Masc "ʃi"],
+                                 [:Singular :Person3 :Fem "ta"],
+                                 [:Plural :Person1 :Common "mu"],
+                                 [:Plural :Person2 :Common "ku"],
+                                 [:Plural :Person2 :Common "su"]]
+                         }
+                 ]
+                }
 
-           ]
- }
