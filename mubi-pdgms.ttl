@@ -15,414 +15,11 @@ aama:Mubi a aamas:Language .
 aama:Mubi rdfs:label "Mubi" .
 aama:Mubi aamas:subfamily "EastChiadic" .
 aama:Mubi aamas:lpref "mub" .
-aama:Mubi aamas:dataSource "Jungraithmayr2013" .
+aama:Mubi aamas:dataSource "Jungraithmayr2013; abbrev. J13" .
 aama:Mubi aamas:dataSourceNotes "" .
 aama:Mubi aamas:geodemoURL "http://www.ethnologue.com/language/" .
 aama:Mubi aamas:geodemoTXT "Southwestern Chad%% Batha region: widespread; Guéra region: Guéra department%% Mangalmé subprefecture%% 135 villages in Mangalmé area. About 35.300 speakers (1993 census)." .
 
-
-#SCHEMATA: participle
-mub:participle aamas:lang aama:Mubi .
-mub:Participle aamas:lang aama:Mubi .
-mub:participle rdfs:domain aamas:Term .
-mub:Participle rdfs:label "participle exponents" .
-mub:participle rdfs:label "participle" .
-mub:participle rdfs:range mub:Participle .
-mub:Participle rdfs:subClassOf mub:MuExponent .
-mub:participle rdfs:subPropertyOf mub:muProperty .
-
-#SCHEMATA: person
-mub:person aamas:lang aama:Mubi .
-mub:Person aamas:lang aama:Mubi .
-mub:person rdfs:domain aamas:Term .
-mub:Person rdfs:label "person exponents" .
-mub:person rdfs:label "person" .
-mub:person rdfs:range mub:Person .
-mub:Person rdfs:subClassOf mub:MuExponent .
-mub:person rdfs:subPropertyOf mub:muProperty .
-mub:Person1 aamas:lang aama:Mubi .
-mub:Person1 rdf:type mub:Person .
-mub:Person1 rdfs:label "Person1" .
-mub:Person2 aamas:lang aama:Mubi .
-mub:Person2 rdf:type mub:Person .
-mub:Person2 rdfs:label "Person2" .
-mub:Person3 aamas:lang aama:Mubi .
-mub:Person3 rdf:type mub:Person .
-mub:Person3 rdfs:label "Person3" .
-
-#SCHEMATA: derivedStem
-mub:derivedStem aamas:lang aama:Mubi .
-mub:Derivedstem aamas:lang aama:Mubi .
-mub:derivedStem rdfs:domain aamas:Term .
-mub:Derivedstem rdfs:label "derivedStem exponents" .
-mub:derivedStem rdfs:label "derivedStem" .
-mub:derivedStem rdfs:range mub:Derivedstem .
-mub:Derivedstem rdfs:subClassOf mub:MuExponent .
-mub:derivedStem rdfs:subPropertyOf mub:muProperty .
-mub:B aamas:lang aama:Mubi .
-mub:B rdf:type mub:Derivedstem .
-mub:B rdfs:label "B" .
-mub:BIntensive aamas:lang aama:Mubi .
-mub:BIntensive rdf:type mub:Derivedstem .
-mub:BIntensive rdfs:label "BIntensive" .
-mub:M aamas:lang aama:Mubi .
-mub:M rdf:type mub:Derivedstem .
-mub:M rdfs:label "M" .
-mub:MIntensive aamas:lang aama:Mubi .
-mub:MIntensive rdf:type mub:Derivedstem .
-mub:MIntensive rdfs:label "MIntensive" .
-mub:R aamas:lang aama:Mubi .
-mub:R rdf:type mub:Derivedstem .
-mub:R rdfs:label "R" .
-mub:S aamas:lang aama:Mubi .
-mub:S rdf:type mub:Derivedstem .
-mub:S rdfs:label "S" .
-mub:SIntensive aamas:lang aama:Mubi .
-mub:SIntensive rdf:type mub:Derivedstem .
-mub:SIntensive rdfs:label "SIntensive" .
-mub:SMIntensive aamas:lang aama:Mubi .
-mub:SMIntensive rdf:type mub:Derivedstem .
-mub:SMIntensive rdfs:label "SMIntensive" .
-mub:SS aamas:lang aama:Mubi .
-mub:SS rdf:type mub:Derivedstem .
-mub:SS rdfs:label "SS" .
-mub:T aamas:lang aama:Mubi .
-mub:T rdf:type mub:Derivedstem .
-mub:T rdfs:label "T" .
-mub:TIntensive aamas:lang aama:Mubi .
-mub:TIntensive rdf:type mub:Derivedstem .
-mub:TIntensive rdfs:label "TIntensive" .
-
-#SCHEMATA: number
-mub:number aamas:lang aama:Mubi .
-mub:Number aamas:lang aama:Mubi .
-mub:number rdfs:domain aamas:Term .
-mub:Number rdfs:label "number exponents" .
-mub:number rdfs:label "number" .
-mub:number rdfs:range mub:Number .
-mub:Number rdfs:subClassOf mub:MuExponent .
-mub:number rdfs:subPropertyOf mub:muProperty .
-mub:Plural aamas:lang aama:Mubi .
-mub:Plural rdf:type mub:Number .
-mub:Plural rdfs:label "Plural" .
-mub:Singular aamas:lang aama:Mubi .
-mub:Singular rdf:type mub:Number .
-mub:Singular rdfs:label "Singular" .
-mub:_NA aamas:lang aama:Mubi .
-mub:_NA rdf:type mub:Number .
-mub:_NA rdfs:label "_NA" .
-
-#SCHEMATA: vmorphClass
-mub:vmorphClass aamas:lang aama:Mubi .
-mub:Vmorphclass aamas:lang aama:Mubi .
-mub:vmorphClass rdfs:domain aamas:Term .
-mub:Vmorphclass rdfs:label "vmorphClass exponents" .
-mub:vmorphClass rdfs:label "vmorphClass" .
-mub:vmorphClass rdfs:range mub:Vmorphclass .
-mub:Vmorphclass rdfs:subClassOf mub:MuExponent .
-mub:vmorphClass rdfs:subPropertyOf mub:muProperty .
-mub:FiniteToBeAdded aamas:lang aama:Mubi .
-mub:FiniteToBeAdded rdf:type mub:Vmorphclass .
-mub:FiniteToBeAdded rdfs:label "FiniteToBeAdded" .
-mub:Affix_SubjMark aamas:lang aama:Mubi .
-mub:Affix_SubjMark rdf:type mub:Vmorphclass .
-mub:Affix_SubjMark rdfs:label "Affix_SubjMark" .
-mub:NonFin_Participles aamas:lang aama:Mubi .
-mub:NonFin_Participles rdf:type mub:Vmorphclass .
-mub:NonFin_Participles rdfs:label "NonFin_Participles" .
-mub:Stem_DervSem aamas:lang aama:Mubi .
-mub:Stem_DervSem rdf:type mub:Vmorphclass .
-mub:Stem_DervSem rdfs:label "Stem_DervSem" .
-mub:Stem_DervTense aamas:lang aama:Mubi .
-mub:Stem_DervTense rdf:type mub:Vmorphclass .
-mub:Stem_DervTense rdfs:label "Stem_DervTense" .
-mub:Stem_Tam aamas:lang aama:Mubi .
-mub:Stem_Tam rdf:type mub:Vmorphclass .
-mub:Stem_Tam rdfs:label "Stem_Tam" .
-
-#SCHEMATA: pos
-mub:pos aamas:lang aama:Mubi .
-mub:Pos aamas:lang aama:Mubi .
-mub:pos rdfs:domain aamas:Term .
-mub:Pos rdfs:label "pos exponents" .
-mub:pos rdfs:label "pos" .
-mub:pos rdfs:range mub:Pos .
-mub:Pos rdfs:subClassOf mub:MuExponent .
-mub:pos rdfs:subPropertyOf mub:muProperty .
-mub:Noun aamas:lang aama:Mubi .
-mub:Noun rdf:type mub:Pos .
-mub:Noun rdfs:label "Noun" .
-mub:Pronoun aamas:lang aama:Mubi .
-mub:Pronoun rdf:type mub:Pos .
-mub:Pronoun rdfs:label "Pronoun" .
-mub:Verb aamas:lang aama:Mubi .
-mub:Verb rdf:type mub:Pos .
-mub:Verb rdfs:label "Verb" .
-
-#SCHEMATA: proClass
-mub:proClass aamas:lang aama:Mubi .
-mub:Proclass aamas:lang aama:Mubi .
-mub:proClass rdfs:domain aamas:Term .
-mub:Proclass rdfs:label "proClass exponents" .
-mub:proClass rdfs:label "proClass" .
-mub:proClass rdfs:range mub:Proclass .
-mub:Proclass rdfs:subClassOf mub:MuExponent .
-mub:proClass rdfs:subPropertyOf mub:muProperty .
-mub:DefMarker aamas:lang aama:Mubi .
-mub:DefMarker rdf:type mub:Proclass .
-mub:DefMarker rdfs:label "DefMarker" .
-mub:Demonstrative aamas:lang aama:Mubi .
-mub:Demonstrative rdf:type mub:Proclass .
-mub:Demonstrative rdfs:label "Demonstrative" .
-mub:Independent aamas:lang aama:Mubi .
-mub:Independent rdf:type mub:Proclass .
-mub:Independent rdfs:label "Independent" .
-mub:PossObj aamas:lang aama:Mubi .
-mub:PossObj rdf:type mub:Proclass .
-mub:PossObj rdfs:label "PossObj" .
-mub:ProComp aamas:lang aama:Mubi .
-mub:ProComp rdf:type mub:Proclass .
-mub:ProComp rdfs:label "ProComp" .
-
-#SCHEMATA: conjClass
-mub:conjClass aamas:lang aama:Mubi .
-mub:Conjclass aamas:lang aama:Mubi .
-mub:conjClass rdfs:domain aamas:Term .
-mub:Conjclass rdfs:label "conjClass exponents" .
-mub:conjClass rdfs:label "conjClass" .
-mub:conjClass rdfs:range mub:Conjclass .
-mub:Conjclass rdfs:subClassOf mub:MuExponent .
-mub:conjClass rdfs:subPropertyOf mub:muProperty .
-mub:Enclitic aamas:lang aama:Mubi .
-mub:Enclitic rdf:type mub:Conjclass .
-mub:Enclitic rdfs:label "Enclitic" .
-mub:Prefix aamas:lang aama:Mubi .
-mub:Prefix rdf:type mub:Conjclass .
-mub:Prefix rdfs:label "Prefix" .
-mub:Suffix aamas:lang aama:Mubi .
-mub:Suffix rdf:type mub:Conjclass .
-mub:Suffix rdfs:label "Suffix" .
-
-#SCHEMATA: case
-mub:case aamas:lang aama:Mubi .
-mub:Case aamas:lang aama:Mubi .
-mub:case rdfs:domain aamas:Term .
-mub:Case rdfs:label "case exponents" .
-mub:case rdfs:label "case" .
-mub:case rdfs:range mub:Case .
-mub:Case rdfs:subClassOf mub:MuExponent .
-mub:case rdfs:subPropertyOf mub:muProperty .
-mub:Ablative aamas:lang aama:Mubi .
-mub:Ablative rdf:type mub:Case .
-mub:Ablative rdfs:label "Ablative" .
-mub:Equative aamas:lang aama:Mubi .
-mub:Equative rdf:type mub:Case .
-mub:Equative rdfs:label "Equative" .
-mub:Locative aamas:lang aama:Mubi .
-mub:Locative rdf:type mub:Case .
-mub:Locative rdfs:label "Locative" .
-mub:Nom_obj aamas:lang aama:Mubi .
-mub:Nom_obj rdf:type mub:Case .
-mub:Nom_obj rdfs:label "Nom_obj" .
-mub:Object aamas:lang aama:Mubi .
-mub:Object rdf:type mub:Case .
-mub:Object rdfs:label "Object" .
-mub:Possessive aamas:lang aama:Mubi .
-mub:Possessive rdf:type mub:Case .
-mub:Possessive rdfs:label "Possessive" .
-mub:Subject aamas:lang aama:Mubi .
-mub:Subject rdf:type mub:Case .
-mub:Subject rdfs:label "Subject" .
-
-#SCHEMATA: polarity
-mub:polarity aamas:lang aama:Mubi .
-mub:Polarity aamas:lang aama:Mubi .
-mub:polarity rdfs:domain aamas:Term .
-mub:Polarity rdfs:label "polarity exponents" .
-mub:polarity rdfs:label "polarity" .
-mub:polarity rdfs:range mub:Polarity .
-mub:Polarity rdfs:subClassOf mub:MuExponent .
-mub:polarity rdfs:subPropertyOf mub:muProperty .
-mub:Affirmative aamas:lang aama:Mubi .
-mub:Affirmative rdf:type mub:Polarity .
-mub:Affirmative rdfs:label "Affirmative" .
-mub:Negative aamas:lang aama:Mubi .
-mub:Negative rdf:type mub:Polarity .
-mub:Negative rdfs:label "Negative" .
-
-#SCHEMATA: tam
-mub:tam aamas:lang aama:Mubi .
-mub:Tam aamas:lang aama:Mubi .
-mub:tam rdfs:domain aamas:Term .
-mub:Tam rdfs:label "tam exponents" .
-mub:tam rdfs:label "tam" .
-mub:tam rdfs:range mub:Tam .
-mub:Tam rdfs:subClassOf mub:MuExponent .
-mub:tam rdfs:subPropertyOf mub:muProperty .
-mub:Aorist aamas:lang aama:Mubi .
-mub:Aorist rdf:type mub:Tam .
-mub:Aorist rdfs:label "Aorist" .
-mub:Future aamas:lang aama:Mubi .
-mub:Future rdf:type mub:Tam .
-mub:Future rdfs:label "Future" .
-mub:Imperative aamas:lang aama:Mubi .
-mub:Imperative rdf:type mub:Tam .
-mub:Imperative rdfs:label "Imperative" .
-mub:Jussive aamas:lang aama:Mubi .
-mub:Jussive rdf:type mub:Tam .
-mub:Jussive rdfs:label "Jussive" .
-mub:NA aamas:lang aama:Mubi .
-mub:NA rdf:type mub:Tam .
-mub:NA rdfs:label "NA" .
-mub:Optative aamas:lang aama:Mubi .
-mub:Optative rdf:type mub:Tam .
-mub:Optative rdfs:label "Optative" .
-mub:Past aamas:lang aama:Mubi .
-mub:Past rdf:type mub:Tam .
-mub:Past rdfs:label "Past" .
-mub:Permissive aamas:lang aama:Mubi .
-mub:Permissive rdf:type mub:Tam .
-mub:Permissive rdfs:label "Permissive" .
-mub:Present aamas:lang aama:Mubi .
-mub:Present rdf:type mub:Tam .
-mub:Present rdfs:label "Present" .
-
-#SCHEMATA: postpositionClass
-mub:postpositionClass aamas:lang aama:Mubi .
-mub:Postpositionclass aamas:lang aama:Mubi .
-mub:postpositionClass rdfs:domain aamas:Term .
-mub:Postpositionclass rdfs:label "postpositionClass exponents" .
-mub:postpositionClass rdfs:label "postpositionClass" .
-mub:postpositionClass rdfs:range mub:Postpositionclass .
-mub:Postpositionclass rdfs:subClassOf mub:MuExponent .
-mub:postpositionClass rdfs:subPropertyOf mub:muProperty .
-
-#SCHEMATA: gender
-mub:gender aamas:lang aama:Mubi .
-mub:Gender aamas:lang aama:Mubi .
-mub:gender rdfs:domain aamas:Term .
-mub:Gender rdfs:label "gender exponents" .
-mub:gender rdfs:label "gender" .
-mub:gender rdfs:range mub:Gender .
-mub:Gender rdfs:subClassOf mub:MuExponent .
-mub:gender rdfs:subPropertyOf mub:muProperty .
-mub:Common aamas:lang aama:Mubi .
-mub:Common rdf:type mub:Gender .
-mub:Common rdfs:label "Common" .
-mub:Fem aamas:lang aama:Mubi .
-mub:Fem rdf:type mub:Gender .
-mub:Fem rdfs:label "Fem" .
-mub:Masc aamas:lang aama:Mubi .
-mub:Masc rdf:type mub:Gender .
-mub:Masc rdfs:label "Masc" .
-
-#SCHEMATA: pluralClass
-mub:pluralClass aamas:lang aama:Mubi .
-mub:Pluralclass aamas:lang aama:Mubi .
-mub:pluralClass rdfs:domain aamas:Term .
-mub:Pluralclass rdfs:label "pluralClass exponents" .
-mub:pluralClass rdfs:label "pluralClass" .
-mub:pluralClass rdfs:range mub:Pluralclass .
-mub:Pluralclass rdfs:subClassOf mub:MuExponent .
-mub:pluralClass rdfs:subPropertyOf mub:muProperty .
-
-#SCHEMATA: nmorphClass
-mub:nmorphClass aamas:lang aama:Mubi .
-mub:Nmorphclass aamas:lang aama:Mubi .
-mub:nmorphClass rdfs:domain aamas:Term .
-mub:Nmorphclass rdfs:label "nmorphClass exponents" .
-mub:nmorphClass rdfs:label "nmorphClass" .
-mub:nmorphClass rdfs:range mub:Nmorphclass .
-mub:Nmorphclass rdfs:subClassOf mub:MuExponent .
-mub:nmorphClass rdfs:subPropertyOf mub:muProperty .
-mub:PLMARK aamas:lang aama:Mubi .
-mub:PLMARK rdf:type mub:Nmorphclass .
-mub:PLMARK rdfs:label "PLMARK" .
-mub:POSTPOSITION aamas:lang aama:Mubi .
-mub:POSTPOSITION rdf:type mub:Nmorphclass .
-mub:POSTPOSITION rdfs:label "POSTPOSITION" .
-
-#SCHEMATA: defClass
-mub:defClass aamas:lang aama:Mubi .
-mub:Defclass aamas:lang aama:Mubi .
-mub:defClass rdfs:domain aamas:Term .
-mub:Defclass rdfs:label "defClass exponents" .
-mub:defClass rdfs:label "defClass" .
-mub:defClass rdfs:range mub:Defclass .
-mub:Defclass rdfs:subClassOf mub:MuExponent .
-mub:defClass rdfs:subPropertyOf mub:muProperty .
-mub:DefClass1 aamas:lang aama:Mubi .
-mub:DefClass1 rdf:type mub:Defclass .
-mub:DefClass1 rdfs:label "DefClass1" .
-mub:DefClass2 aamas:lang aama:Mubi .
-mub:DefClass2 rdf:type mub:Defclass .
-mub:DefClass2 rdfs:label "DefClass2" .
-mub:DefClass3 aamas:lang aama:Mubi .
-mub:DefClass3 rdf:type mub:Defclass .
-mub:DefClass3 rdfs:label "DefClass3" .
-
-#SCHEMATA: deixis
-mub:deixis aamas:lang aama:Mubi .
-mub:Deixis aamas:lang aama:Mubi .
-mub:deixis rdfs:domain aamas:Term .
-mub:Deixis rdfs:label "deixis exponents" .
-mub:deixis rdfs:label "deixis" .
-mub:deixis rdfs:range mub:Deixis .
-mub:Deixis rdfs:subClassOf mub:MuExponent .
-mub:deixis rdfs:subPropertyOf mub:muProperty .
-mub:Far aamas:lang aama:Mubi .
-mub:Far rdf:type mub:Deixis .
-mub:Far rdfs:label "Far" .
-mub:Near aamas:lang aama:Mubi .
-mub:Near rdf:type mub:Deixis .
-mub:Near rdfs:label "Near" .
-
-#SCHEMATA: pdgmType
-aamas:pdgmType aamas:lang aama:Mubi .
-aamas:Pdgmtype aamas:lang aama:Mubi .
-aamas:pdgmType rdfs:domain aamas:Termcluster .
-aamas:Pdgmtype rdfs:label "pdgmType exponents" .
-aamas:pdgmType rdfs:label "pdgmType" .
-aamas:pdgmType rdfs:range aamas:Pdgmtype .
-aamas:Pdgmtype rdfs:subClassOf mub:MuExponent .
-aamas:pdgmType rdfs:subPropertyOf mub:muProperty .
-mub:Finite aamas:lang aama:Mubi .
-mub:Finite rdf:type aamas:Pdgmtype .
-mub:Finite rdfs:label "Finite" .
-mub:FinitePartial aamas:lang aama:Mubi .
-mub:FinitePartial rdf:type aamas:Pdgmtype .
-mub:FinitePartial rdfs:label "FinitePartial" .
-mub:PRO aamas:lang aama:Mubi .
-mub:PRO rdf:type aamas:Pdgmtype .
-mub:PRO rdfs:label "PRO" .
-mub:NOM aamas:lang aama:Mubi .
-mub:NOM rdf:type aamas:Pdgmtype .
-mub:NOM rdfs:label "NOM" .
-mub:VOther aamas:lang aama:Mubi .
-mub:VOther rdf:type aamas:Pdgmtype .
-mub:VOther rdfs:label "VOther" .
-
-#SCHEMATA: rootClass
-mub:rootClass aamas:lang aama:Mubi .
-mub:Rootclass aamas:lang aama:Mubi .
-mub:rootClass rdfs:domain aamas:Term .
-mub:Rootclass rdfs:label "rootClass exponents" .
-mub:rootClass rdfs:label "rootClass" .
-mub:rootClass rdfs:range mub:Rootclass .
-mub:Rootclass rdfs:subClassOf mub:MuExponent .
-mub:rootClass rdfs:subPropertyOf mub:muProperty .
-mub:CCC aamas:lang aama:Mubi .
-mub:CCC rdf:type mub:Rootclass .
-mub:CCC rdfs:label "CCC" .
-mub:CCY aamas:lang aama:Mubi .
-mub:CCY rdf:type mub:Rootclass .
-mub:CCY rdfs:label "CCY" .
-mub:CVC aamas:lang aama:Mubi .
-mub:CVC rdf:type mub:Rootclass .
-mub:CVC rdfs:label "CVC" .
-mub:Invar aamas:lang aama:Mubi .
-mub:Invar rdf:type mub:Rootclass .
-mub:Invar rdfs:label "Invar" .
 
 #PCLASSES:
 
@@ -464,25 +61,16 @@ aamas:inflClass rdfs:label "inflClass" .
 #LEXEMES:
 
 ##LexItems
-aama:Mubi-token a aamas:Lexeme ;
-	aamas:lang aama:Mubi ;
-	rdfs:label "token" ;
-	mub:conjClass mub:token ;
-	mub:derivedStem mub:token ;
-	mub:rootClass mub:token ;
-	aamas:lemma "" ;
-	aamas:gloss "" ;
-	.
 
 #TERMCLUSTER:  Finite_Verb_Paradigms_to_be_added
 
 mub:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:label "Finite_Verb_Paradigms_to_be_added" ;
 	aamas:lang aama:Mubi ;
-	rdfs:comment "" 
+	rdfs:comment "J13" 
 	.
 
-aama:ID60abfd15-f0aa-41b9-88b4-0196d3457f3f a aamas:Term ;
+aama:ID30ae2b74-433b-4ac6-b7d5-df68ceab86e4 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:Finite_Verb_Paradigms_to_be_added ;
 	mub:vmorpheme mub:FiniteToBeAdded ;
@@ -492,18 +80,252 @@ aama:ID60abfd15-f0aa-41b9-88b4-0196d3457f3f a aamas:Term ;
 	mub:token "not attested" ;
 	.
 
-#TERMCLUSTER:  Pronominal_Paradigms_to_be_added
+#TERMCLUSTER:  mubi-PInd
 
-mub:Pronominal_Paradigms_to_be_added a aamas:Termcluster ;
-	rdfs:label "Pronominal_Paradigms_to_be_added" ;
+mub:mubi-PInd a aamas:Termcluster ;
+	rdfs:label "mubi-PInd" ;
 	aamas:lang aama:Mubi ;
-	rdfs:comment "" 
+	rdfs:comment "J13#2.4.1 :: le pronom personnel absolu" 
 	.
 
-aama:IDef40581a-9edb-4f78-85fc-fdcab68c1ce6 a aamas:Term ;
+aama:IDf58229c0-598b-4878-a0e3-83b7a27a5d9d a aamas:Term ;
 	aamas:lang aama:Mubi ;
-	aamas:memberOf mub:Pronominal_Paradigms_to_be_added ;
+	aamas:memberOf mub:mubi-PInd ;
 	mub:pos mub:Pronoun ;
-	mub:proClass mub:To_be_added ;
-	mub:token "not attested" ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "ndé" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:Singular ;
+	.
+
+aama:IDd87241c3-705a-45df-aad9-45d11bca85df a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "kám" ;
+	mub:gender mub:Masc ;
+	mub:person mub:Person2 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID40afec9c-3823-431c-9b8a-8defe466088c a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "kín" ;
+	mub:gender mub:Fem ;
+	mub:person mub:Person2 ;
+	mub:number mub:Singular ;
+	.
+
+aama:IDc927a6f9-0055-4648-88f8-6dd189042628 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "ár" ;
+	mub:gender mub:Masc ;
+	mub:person mub:Person3 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID778a251b-912a-4ef3-ad2e-f7733f097ee6 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "tír" ;
+	mub:gender mub:Fem ;
+	mub:person mub:Person3 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID47598b3e-1659-4c29-95c6-799108f1fee7 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "áná" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:PluralIn ;
+	.
+
+aama:ID183e06a5-e8c9-465e-bbda-7666333bb68e a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "éné" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:PluralEx ;
+	.
+
+aama:ID54a09f1d-266f-48ae-91fc-1fec128c3ee2 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "kéné" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person2 ;
+	mub:number mub:Plural ;
+	.
+
+aama:IDe9714ced-b077-43d8-88ac-34284e01a8f5 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:Independent ;
+	mub:token "kér" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person2 ;
+	mub:number mub:Plural ;
+	.
+
+#TERMCLUSTER:  mubi-PIndPreposed
+
+mub:mubi-PIndPreposed a aamas:Termcluster ;
+	rdfs:label "mubi-PIndPreposed" ;
+	aamas:lang aama:Mubi ;
+	rdfs:comment "J13#2.4.2.1 :: le pronom personnel sujet prepose" 
+	.
+
+aama:ID37fb0b13-58ec-4b0b-b67d-6eba69c56784 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "ní" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID561efc54-4f96-4cb3-8f1f-2b3c9a96d5cd a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "ká" ;
+	mub:gender mub:Masc ;
+	mub:person mub:Person2 ;
+	mub:number mub:Singular ;
+	.
+
+aama:IDcab9582b-4353-4ec4-af57-553ad60ed3df a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "kí" ;
+	mub:gender mub:Fem ;
+	mub:person mub:Person2 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID2ed8f4ba-c057-4d1f-8b63-65c10458f700 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "à" ;
+	mub:gender mub:Masc ;
+	mub:person mub:Person3 ;
+	mub:number mub:Singular ;
+	.
+
+aama:ID40ed49ec-82d1-48b4-945e-5c5d97cfa7dc a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "dì" ;
+	mub:gender mub:Fem ;
+	mub:person mub:Person3 ;
+	mub:number mub:Singular ;
+	.
+
+aama:IDdd4273e6-4e55-475c-82f0-9e55cdca7c02 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "á" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:PluralIn ;
+	.
+
+aama:IDef989177-53e5-4381-9e26-3342bc5b1f84 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "á" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person1 ;
+	mub:number mub:PluralEx ;
+	.
+
+aama:IDc8a32d88-cbb2-4333-b767-92dbbc18458f a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "ká(n)" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person2 ;
+	mub:number mub:Plural ;
+	.
+
+aama:ID9a3bf7f9-e021-483d-8825-2e5d26f7e5b1 a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:pos mub:Pronoun ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:case mub:Subject ;
+	mub:proClass mub:IndPreposed ;
+	mub:token "kà" ;
+	mub:gender mub:Common ;
+	mub:person mub:Person2 ;
+	mub:number mub:Plural ;
 	.

@@ -2,7 +2,7 @@
  :lang :mubi
  :subfamily "EastChiadic"
  :sgpref "mub"
- :datasource "Jungraithmayr2013"
+ :datasource "Jungraithmayr2013; abbrev. J13"
  :datasourceNotes ""
  :geodemoURL "http://www.ethnologue.com/language/"
  :geodemoTXT "Southwestern Chad, Batha region: widespread; Guéra region: Guéra department, Mangalmé subprefecture, 135 villages in Mangalmé area. About 35.300 speakers (1993 census)."
@@ -17,7 +17,7 @@
  :termclusters [
 
                 {:label "Finite_Verb_Paradigms_to_be_added"
-                 :note ""
+                 :note "J13"
                  :common {:vmorpheme :FiniteToBeAdded
                           :pos :Verb,
                           ;; needs :person and one other prop to pass muster
@@ -26,47 +26,40 @@
                  :terms [[:token],
                          [  "not attested"]]
                  }
-                {:label "hausa-PInd"
-                 :note "This is the independent non-subject. The weak subject combines with the TAM marker. Newman2000, 476"
+                {:label "mubi-PInd"
+                 :note "J13#2.4.1 :: le pronom personnel absolu"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :case :Subject
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
-                         [:Singular :Person1 :Common "ndé	ní
-kám	ká
-kín	kí
-ár	à
-tír	dì
-áná~éné	á
-kéné	ká(n)
-kér	kà
-"],
-                         [:Singular :Person2 :Masc "kai"],
-                         [:Singular :Person2 :Fem "ke:"],
-                         [:Singular :Person3 :Masc "ʃi:"],
-                         [:Singular :Person3 :Fem "ita"],
-                         [:Plural :Person1 :Common "mu:"],
-                         [:Plural :Person2 :Common "ku:"],
-                         [:Plural :Person2 :Common "su:"]]
+                         [:Singular :Person1 :Common "ndé"]
+                         [:Singular :Person2 :Masc "kám"]
+                         [:Singular :Person2 :Fem "kín"]
+                         [:Singular :Person3 :Masc "ár"]
+                         [:Singular :Person3 :Fem "tír"]
+                         [:PluralIn :Person1 :Common "áná"]
+                         [:PluralEx :Person1 :Common "éné"]
+                         [:Plural :Person2 :Common "kéné"]
+                         [:Plural :Person2 :Common "kér"]]
                  }
-                {:label "hausa-PObj"
-                 :note "This is the strong object. Newman2000, 487"
+                {:label "mubi-PIndPreposed"
+                 :note "J13#2.4.2.1 :: le pronom personnel sujet prepose"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :case :Subject
-                          :proClass :Independent}
+                          :proClass :IndPreposed}
                  :terms [[:number :person :gender :token],
-                         :terms [[:number :person :gender :token],
-                                 [:Singular :Person1 :Common "ni"],
-                                 [:Singular :Person2 :Masc "ka"],
-                                 [:Singular :Person2 :Fem "ki"],
-                                 [:Singular :Person3 :Masc "ʃi"],
-                                 [:Singular :Person3 :Fem "ta"],
-                                 [:Plural :Person1 :Common "mu"],
-                                 [:Plural :Person2 :Common "ku"],
-                                 [:Plural :Person2 :Common "su"]]
-                         }
-                 ]
-                }
+                         [:Singular :Person1 :Common "ní"]
+                         [:Singular :Person2 :Masc "ká"]
+                         [:Singular :Person2 :Fem "kí"]
+                         [:Singular :Person3 :Masc "à"]
+                         [:Singular :Person3 :Fem "dì"]
+                         [:PluralIn :Person1 :Common "á"]
+                         [:PluralEx :Person1 :Common "á"]
+                         [:Plural :Person2 :Common "ká(n)"]
+                         [:Plural :Person2 :Common "kà"]]
+                 }
+                ]
+ }
 
