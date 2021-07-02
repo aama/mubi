@@ -1,0 +1,60 @@
+{
+  "lang": "mubi",
+  "subfamily": "EastChiadic",
+  "sgpref": "mub",
+  "datasource": "Jungraithmayr2013; abbrev. J13",
+  "datasourceNotes": "",
+  "geodemoURL": "http://www.ethnologue.com/language/",
+  "geodemoTXT": "Southwestern Chad, Batha region: widespread; Guéra region: Guéra department, Mangalmé subprefecture, 135 villages in Mangalmé area. About 35.300 speakers (1993 census).",
+  "schemata": {},
+  "lexemes": {},
+  "termclusters": [
+{
+"label": "Finite_Verb_Paradigms_to_be_added",
+"note": "J13",
+"common": {"person": "To_be_added",
+ "pos": "Verb",
+ "tam": "To_be_added",
+ "vmorpheme": "FiniteToBeAdded"},
+"terms":  
+[["token"], ["not attested"]]
+},
+{
+"label": "mubi-PInd",
+"note": "J13#2.4.1 :: le pronom personnel absolu",
+"common": {"case": "Subject",
+ "pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Independent"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "ndé"],
+ ["Singular", "Person2", "Masc", "kám"],
+ ["Singular", "Person2", "Fem", "kín"],
+ ["Singular", "Person3", "Masc", "ár"],
+ ["Singular", "Person3", "Fem", "tír"],
+ ["PluralIn", "Person1", "Common", "áná"],
+ ["PluralEx", "Person1", "Common", "éné"],
+ ["Plural", "Person2", "Common", "kéné"],
+ ["Plural", "Person2", "Common", "kér"]]
+},
+{
+"label": "mubi-PIndPreposed",
+"note": "J13#2.4.2.1 :: le pronom personnel sujet prepose",
+"common": {"case": "Subject",
+ "pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "IndPreposed"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "ní"],
+ ["Singular", "Person2", "Masc", "ká"],
+ ["Singular", "Person2", "Fem", "kí"],
+ ["Singular", "Person3", "Masc", "à"],
+ ["Singular", "Person3", "Fem", "dì"],
+ ["PluralIn", "Person1", "Common", "á"],
+ ["PluralEx", "Person1", "Common", "á"],
+ ["Plural", "Person2", "Common", "ká(n)"],
+ ["Plural", "Person2", "Common", "kà"]]
+}]
+}

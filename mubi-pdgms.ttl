@@ -1,68 +1,33 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/mubi/mubi-pdgms.edn
+#data/mubi-pdgms.json
 
-@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc:    <http://purl.org/dc/elements>.
-@prefix dcterms:    <http://purl.org/dc/terms>.
-@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:      <http://purl.org/dc/elements> .
+@prefix dcterms: <http://purl.org/dc/terms> .
+@prefix aama:    <http://id.oi.uchicago.edu/aama/2013/> .
 @prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
-@prefix mub:   <http://id.oi.uchicago.edu/aama/2013/mubi/> .
+@prefix mub:     <http://id.oi.uchicago.edu/aama/2013/mubi/> .
 
 #LANG INFO:
 
-aama:Mubi a aamas:Language .
+aama:Mubi a aamas:Language.
 aama:Mubi rdfs:label "Mubi" .
 aama:Mubi aamas:subfamily "EastChiadic" .
 aama:Mubi aamas:lpref "mub" .
 aama:Mubi aamas:dataSource "Jungraithmayr2013; abbrev. J13" .
-aama:Mubi aamas:dataSourceNotes "" .
 aama:Mubi aamas:geodemoURL "http://www.ethnologue.com/language/" .
-aama:Mubi aamas:geodemoTXT "Southwestern Chad%% Batha region: widespread; Guéra region: Guéra department%% Mangalmé subprefecture%% 135 villages in Mangalmé area. About 35.300 speakers (1993 census)." .
+aama:Mubi aamas:geodemoTxt "Southwestern Chad, Batha region: widespread; Guéra region: Guéra department, Mangalmé subprefecture, 135 villages in Mangalmé area. About 35.300 speakers (1993 census)." .
+
+#LEXEMES: Mubi
+
+#LexItems: Mubi
 
 
-#PCLASSES:
+#TERMCLUSTERS: Mubi
 
-mub:person aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-mub:number aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-mub:gender aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-mub:case aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:defClass aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:deixis aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:derivedStem aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:derivedStemAug aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:participle aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:polarity aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:pos aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:proClass aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:tam aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-mub:conjClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-mub:pluralClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-mub:postpositionClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-mub:rootClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-
-#LEXEMES:
-
-##LexItems
-
-#TERMCLUSTER:  Finite_Verb_Paradigms_to_be_added
+#TERMCLUSTER: Finite_Verb_Paradigms_to_be_added
 
 mub:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:label "Finite_Verb_Paradigms_to_be_added" ;
@@ -70,17 +35,17 @@ mub:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "J13" 
 	.
 
-aama:ID30ae2b74-433b-4ac6-b7d5-df68ceab86e4 a aamas:Term ;
+aama:IDe13e731e-2d6c-4ce7-9266-edbc03eaa81b a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:Finite_Verb_Paradigms_to_be_added ;
-	mub:vmorpheme mub:FiniteToBeAdded ;
-	mub:pos mub:Verb ;
 	mub:person mub:To_be_added ;
+	mub:pos mub:Verb ;
 	mub:tam mub:To_be_added ;
+	mub:vmorpheme mub:FiniteToBeAdded ;
 	mub:token "not attested" ;
 	.
 
-#TERMCLUSTER:  mubi-PInd
+#TERMCLUSTER: mubi-PInd
 
 mub:mubi-PInd a aamas:Termcluster ;
 	rdfs:label "mubi-PInd" ;
@@ -88,124 +53,124 @@ mub:mubi-PInd a aamas:Termcluster ;
 	rdfs:comment "J13#2.4.1 :: le pronom personnel absolu" 
 	.
 
-aama:IDf58229c0-598b-4878-a0e3-83b7a27a5d9d a aamas:Term ;
+aama:IDab8e3ef4-50b0-4b86-80bf-5100075a137d a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
+	mub:number mub:Singular ;
+	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
 	mub:token "ndé" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person1 ;
-	mub:number mub:Singular ;
 	.
 
-aama:IDd87241c3-705a-45df-aad9-45d11bca85df a aamas:Term ;
+aama:IDb04f645b-db2a-4093-82e3-78d7dd27111a a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
+	mub:number mub:Singular ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Masc ;
 	mub:token "kám" ;
-	mub:gender mub:Masc ;
-	mub:person mub:Person2 ;
-	mub:number mub:Singular ;
 	.
 
-aama:ID40afec9c-3823-431c-9b8a-8defe466088c a aamas:Term ;
+aama:ID5abecb67-355b-4a80-8b2b-983c4abdb5ff a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
+	mub:number mub:Singular ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Fem ;
 	mub:token "kín" ;
-	mub:gender mub:Fem ;
-	mub:person mub:Person2 ;
-	mub:number mub:Singular ;
 	.
 
-aama:IDc927a6f9-0055-4648-88f8-6dd189042628 a aamas:Term ;
+aama:IDba0af7ce-c61c-4ac7-99a4-b2cbc8e64039 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
-	mub:token "ár" ;
+	mub:number mub:Singular ;
+	mub:person mub:Person3 ;
 	mub:gender mub:Masc ;
-	mub:person mub:Person3 ;
-	mub:number mub:Singular ;
+	mub:token "ár" ;
 	.
 
-aama:ID778a251b-912a-4ef3-ad2e-f7733f097ee6 a aamas:Term ;
+aama:ID92f2db75-d69c-4ed6-afdf-e8cc72ac802e a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
-	mub:token "tír" ;
+	mub:number mub:Singular ;
+	mub:person mub:Person3 ;
 	mub:gender mub:Fem ;
-	mub:person mub:Person3 ;
-	mub:number mub:Singular ;
+	mub:token "tír" ;
 	.
 
-aama:ID47598b3e-1659-4c29-95c6-799108f1fee7 a aamas:Term ;
+aama:IDe32451a5-6c4c-49e6-9f39-b11cdb4a4f2b a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
-	mub:token "áná" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person1 ;
 	mub:number mub:PluralIn ;
-	.
-
-aama:ID183e06a5-e8c9-465e-bbda-7666333bb68e a aamas:Term ;
-	aamas:lang aama:Mubi ;
-	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
-	mub:case mub:Subject ;
-	mub:proClass mub:Independent ;
-	mub:token "éné" ;
-	mub:gender mub:Common ;
 	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
+	mub:token "áná" ;
+	.
+
+aama:ID53b64d48-6d95-49cc-a1aa-169d533b3c0d a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PInd ;
+	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
+	mub:proClass mub:Independent ;
 	mub:number mub:PluralEx ;
+	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
+	mub:token "éné" ;
 	.
 
-aama:ID54a09f1d-266f-48ae-91fc-1fec128c3ee2 a aamas:Term ;
+aama:ID0ad0f874-1ddb-4261-b3d5-d6bba95a0c43 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
+	mub:number mub:Plural ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Common ;
 	mub:token "kéné" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person2 ;
-	mub:number mub:Plural ;
 	.
 
-aama:IDe9714ced-b077-43d8-88ac-34284e01a8f5 a aamas:Term ;
+aama:ID54f0ac72-67b6-4ad6-ab4f-00fb71952bda a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PInd ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:Independent ;
-	mub:token "kér" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person2 ;
 	mub:number mub:Plural ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Common ;
+	mub:token "kér" ;
 	.
 
-#TERMCLUSTER:  mubi-PIndPreposed
+#TERMCLUSTER: mubi-PIndPreposed
 
 mub:mubi-PIndPreposed a aamas:Termcluster ;
 	rdfs:label "mubi-PIndPreposed" ;
@@ -213,119 +178,120 @@ mub:mubi-PIndPreposed a aamas:Termcluster ;
 	rdfs:comment "J13#2.4.2.1 :: le pronom personnel sujet prepose" 
 	.
 
-aama:ID37fb0b13-58ec-4b0b-b67d-6eba69c56784 a aamas:Term ;
+aama:ID1d180678-d941-420b-9b53-5d5aa5116d72 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
+	mub:number mub:Singular ;
+	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
 	mub:token "ní" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person1 ;
-	mub:number mub:Singular ;
 	.
 
-aama:ID561efc54-4f96-4cb3-8f1f-2b3c9a96d5cd a aamas:Term ;
+aama:ID1194eb9b-7a8b-47cf-b9f5-0c585f4b4ef2 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
+	mub:number mub:Singular ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Masc ;
 	mub:token "ká" ;
-	mub:gender mub:Masc ;
-	mub:person mub:Person2 ;
-	mub:number mub:Singular ;
 	.
 
-aama:IDcab9582b-4353-4ec4-af57-553ad60ed3df a aamas:Term ;
+aama:ID1268bb6a-e20d-4442-9765-64f7643b059d a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
+	mub:number mub:Singular ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Fem ;
 	mub:token "kí" ;
-	mub:gender mub:Fem ;
-	mub:person mub:Person2 ;
-	mub:number mub:Singular ;
 	.
 
-aama:ID2ed8f4ba-c057-4d1f-8b63-65c10458f700 a aamas:Term ;
+aama:ID442fd29a-ad2b-4964-9c59-d9adb5fbc0e9 a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
-	mub:token "à" ;
+	mub:number mub:Singular ;
+	mub:person mub:Person3 ;
 	mub:gender mub:Masc ;
-	mub:person mub:Person3 ;
-	mub:number mub:Singular ;
+	mub:token "à" ;
 	.
 
-aama:ID40ed49ec-82d1-48b4-945e-5c5d97cfa7dc a aamas:Term ;
+aama:ID45ac224a-ec3e-4402-9f0c-43733b9c42fc a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
-	mub:token "dì" ;
+	mub:number mub:Singular ;
+	mub:person mub:Person3 ;
 	mub:gender mub:Fem ;
-	mub:person mub:Person3 ;
-	mub:number mub:Singular ;
+	mub:token "dì" ;
 	.
 
-aama:IDdd4273e6-4e55-475c-82f0-9e55cdca7c02 a aamas:Term ;
+aama:ID688317a0-16c3-4a4a-acaa-1c298a07fcba a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
-	mub:token "á" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person1 ;
 	mub:number mub:PluralIn ;
-	.
-
-aama:IDef989177-53e5-4381-9e26-3342bc5b1f84 a aamas:Term ;
-	aamas:lang aama:Mubi ;
-	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
-	mub:case mub:Subject ;
-	mub:proClass mub:IndPreposed ;
-	mub:token "á" ;
-	mub:gender mub:Common ;
 	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
+	mub:token "á" ;
+	.
+
+aama:ID02b530b0-140c-4e15-9f8e-c6124599d2ac a aamas:Term ;
+	aamas:lang aama:Mubi ;
+	aamas:memberOf mub:mubi-PIndPreposed ;
+	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
+	mub:proClass mub:IndPreposed ;
 	mub:number mub:PluralEx ;
+	mub:person mub:Person1 ;
+	mub:gender mub:Common ;
+	mub:token "á" ;
 	.
 
-aama:IDc8a32d88-cbb2-4333-b767-92dbbc18458f a aamas:Term ;
+aama:ID484c5408-c83a-4300-adab-59da74e83a5f a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
+	mub:number mub:Plural ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Common ;
 	mub:token "ká(n)" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person2 ;
-	mub:number mub:Plural ;
 	.
 
-aama:ID9a3bf7f9-e021-483d-8825-2e5d26f7e5b1 a aamas:Term ;
+aama:ID9b50364f-664b-40c6-aef7-9e29d6e282ce a aamas:Term ;
 	aamas:lang aama:Mubi ;
 	aamas:memberOf mub:mubi-PIndPreposed ;
-	mub:pos mub:Pronoun ;
-	mub:pmorphClass mub:ProMorph ;
 	mub:case mub:Subject ;
+	mub:pmorphClass mub:ProMorph ;
+	mub:pos mub:Pronoun ;
 	mub:proClass mub:IndPreposed ;
-	mub:token "kà" ;
-	mub:gender mub:Common ;
-	mub:person mub:Person2 ;
 	mub:number mub:Plural ;
+	mub:person mub:Person2 ;
+	mub:gender mub:Common ;
+	mub:token "kà" ;
 	.
+
